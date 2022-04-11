@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cinema.</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__top">
+            <a class="logo" href="/"
+              ><img class="logo__img" src="images/logo.png" alt="logo"
+            /></a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Новости</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Фильмы</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Рецензии</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">О нас</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu-toggle"><span></span></div>
+            <div class="user">
+              <a class="user__search" href="#"
+                ><img src="images/search.svg" alt="search icon" /> </a
+              ><a class="user__profile" href="#"
+                ><img src="images/user.svg" alt="user icon"
+              /></a>
+            </div>
+          </div>
+          <div class="header__content">
+            <div class="header__inner-info">
+              <div class="header__info">
+                <h3 class="header__info-subtitle">кто мы ?</h3>
+                <h1 class="header__info-title">
+                  Cinema. сети кинотеатров по всей России, нас можно найти в
+                  Москве, Санкт-Петербурге и др.
+                </h1>
+                <a
+                  class="header__info-video"
+                  href="https://www.youtube.com/watch?v=zAGVQLHvwOY"
+                  ><img src="images/play.svg" alt="play button" />
+                  <span>Смотреть</span></a
+                >
+              </div>
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/info.webp"
+                  class="header__info-img"
+                />
+                <source
+                  type="image/jpg"
+                  srcset="images/info.jpg"
+                  class="header__info-img"
+                />
+                <img
+                  class="header__info-img"
+                  src="images/info.jpg"
+                  alt="info"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="header__bottom">
+            <div class="scroll-down" href="#action"><span>Scroll Down</span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="action" id="action">
+        <div class="container">
+          <div class="action__inner">
+            <h3 class="action__subtitle">что мы делаем</h3>
+            <h2 class="action__title">И почему вы должны выбрать именно нас</h2>
+            <div class="action__blocks">
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-1.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">Современные проекторы</h3>
+                  <p class="action__block-infotext">
+                    Кино. у нас только новейшие проекторы и технологии,
+                    демонстрирующие лучшее качество и звук. Зал рассчитан на 300
+                    человек, кресла удобные.
+                  </p>
+                </div>
+              </div>
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-2.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">Обслуживание</h3>
+                  <p class="action__block-infotext">
+                    Когда дело доходит до служения людям, у нас есть самые
+                    приятные люди, которые будут готовы служить вам и ответить
+                    на любые ваши вопросы.
+                  </p>
+                </div>
+              </div>
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-3.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">Еда</h3>
+                  <p class="action__block-infotext">
+                    У нас всегда свежая еда, от безалкогольных напитков (пепси,
+                    спираль, разрез) до фастфуда (картофель фри, пицца,
+                    гамбургеры). Цена на еду ниже, чем в других центрах, потому
+                    что проблема с высокими ценами в кинотеатре всем известна.
+                  </p>
+                </div>
+              </div>
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-4.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">24 / 7</h3>
+                  <p class="action__block-infotext">
+                    Работаем весь день, с понедельника по субботу, воскресенье -
+                    выходной. Вы можете прийти в любое время суток и мы всегда
+                    ждем вас с распростертыми объятиями.
+                  </p>
+                </div>
+              </div>
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-5.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">Cinema. - мы везде</h3>
+                  <p class="action__block-infotext">
+                    Наши центры есть практически в каждом городе России, в
+                    Москве, Санкт-Петербурге, Новгороде, Самаре и так далее. Вы
+                    можете найти наши социальные сети и подробнее узнать о
+                    местах, где мы находимся.
+                  </p>
+                </div>
+              </div>
+              <div class="action__block">
+                <img
+                  class="action__block-img"
+                  src="images/block-6.svg"
+                  alt="block img"
+                />
+                <div class="action__block-info">
+                  <h3 class="action__block-infotitle">Билеты</h3>
+                  <p class="action__block-infotext">
+                    Вы можете купить билеты онлайн или лично. На премьеру фильма
+                    билеты покупают как горячую еду, поэтому лучше поторопиться.
+                    Дело в том, что первые 100 билетов на 50% дешевле следующих.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="best">
+        <div class="container">
+          <div class="best__inner">
+            <div class="best__block">
+              <div class="best__info">
+                <h3 class="best__info-title">Самые просматриваемый</h3>
+              </div>
+              <div class="best__slider">
+                <a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-1.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-1.jpg" class="header__info-img" />
+                    <img src="images/slider-1.jpg" alt="info" />
+                  </picture>
+                  <p class="rate">10 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 144</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 560</div></a
+                ><a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-2.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-2.jpg" class="header__info-img" />
+                    <img src="images/slider-2.jpg" alt="info" />
+                  </picture>
+                  <p class="rate">9.5 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 23</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 890</div></a
+                ><a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-3.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-3.jpg" class="header__info-img" />
+                    <img src="images/slider-3.jpg" alt="info" />
+                  </picture>
+                  <p class="rate">10 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 89</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 901</div></a
+                ><a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-4.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-4.jpg" class="header__info-img" />
+                    <img src="images/slider-4.jpg" alt="info" />
+                  </picture>                  <p class="rate">8 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 131</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 1356</div></a
+                ><a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-5.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-5.jpg" class="header__info-img" />
+                    <img src="images/slider-5.jpg" alt="info" />
+                  </picture>                  <p class="rate">10 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 78</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 2242</div></a
+                ><a class="slider__item" href="#"
+                  >
+                  <picture>
+                    <source type="image/webp" srcset="images/slider-6.webp" class="header__info-img" />
+                    <source type="image/jpg" srcset="images/slider-6.jpg" class="header__info-img" />
+                    <img src="images/slider-6.jpg" alt="info" />
+                  </picture>                  <p class="rate">9.6 / 10</p>
+                  <p class="comment"><i class="fa fa-comments"></i> 411</p>
+                  <div class="watch"><i class="fa fa-eye"></i> 1341</div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <h3 class="about__subtitle">Опять мы</h3>
+            <h2 class="about__title">Мы есть Cinema.</h2>
+            <p class="about__text">
+              Наша компания существует уже 20 лет, за 20 лет у нас были как
+              положительные, так и отрицательные моменты. Хорошие и
+              отрицательные отзывы, но самое главное, что мы делаем свое дело и
+              готовы предложить вам идеальный вечер для просмотра фильма. С
+              начала нашей карьеры в наших центрах многое изменилось (дизайн,
+              еда, проекторы).
+            </p>
+            <div class="about__achievement">
+              <div class="about__item">
+                <h6 class="about__item-number">20+</h6>
+                <p class="about__item-text">лет работы</p>
+              </div>
+              <div class="about__item">
+                <h6 class="about__item-number">56</h6>
+                <p class="about__item-text">Полученные награды</p>
+              </div>
+              <div class="about__item">
+                <h6 class="about__item-number">200+</h6>
+                <p class="about__item-text">фильмов</p>
+              </div>
+              <div class="about__item">
+                <h6 class="about__item-number">500+</h6>
+                <p class="about__item-text">хороших отзывы</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <h3 class="footer__subtitle">связаться с нами</h3>
+          <p class="footer__title">
+            Напишите, что вам понравилось или не понравилось в наших центрах,
+            или какой фильм вы бы хотели, чтобы появился наш новый? Мы выслушаем
+            ваше сообщение
+          </p>
+          <div class="contact">
+            <form class="footer__form">
+              <div class="form__field">
+                <input class="form__input" type="text" placeholder="Ваше имя" />
+              </div>
+              <div class="form__field">
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Ваш Email"
+                />
+              </div>
+              <div class="form__field">
+                <input class="form__input" type="text" placeholder="Тема" />
+              </div>
+              <textarea
+                class="form__textarea"
+                placeholder="Ваше сообщение"
+              ></textarea>
+              <div class="form__btn">
+                <button class="send__btn" type="submit">Отправить</button>
+              </div>
+            </form>
+          </div>
+          <div class="footer__bottom">
+            <div class="footer__bottom-info">
+              <a class="logo" href="/"
+                ><img class="logo__img" src="images/logo.png" alt="logo"
+              /></a>
+              <p class="footer__bottom-text">
+                Наша компания существует уже 20 лет, за 20 лет у нас были как
+                положительные, так и отрицательные моменты. Хорошие и
+                отрицательные отзывы, но самое главное, что мы делаем свое дело
+                и готовы предложить вам идеальный вечер для просмотра фильма. С
+                начала нашей карьеры в наших центрах многое изменилось (дизайн,
+                еда, проекторы).
+              </p>
+            </div>
+            <div class="footer__social">
+              <ul class="footer__social-list">
+                <li class="footer__list-item">
+                  <i class="fab fa-facebook"></i>
+                </li>
+                <li class="footer__list-item">
+                  <i class="fab fa-instagram"></i>
+                </li>
+                <li class="footer__list-item">
+                  <i class="fab fa-twitter"></i>
+                </li>
+                <li class="footer__list-item">
+                  <i class="fab fa-dribbble"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
